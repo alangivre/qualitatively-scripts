@@ -1,5 +1,5 @@
-# prxlscripts
-Scripts for PRX-Life paper "Qualitatively Distinct Signaling in Cells"
+# qualitatively-scripts
+Scripts for paper "Qualitatively Distinct Signaling in Cells"
 
 Run script.sh, inside choose the script you intend to run.
 
@@ -13,3 +13,5 @@ These call the core scripts, which run jfijoT.jl (a simulation for a fixed input
 Fig. 4 comes from integrals.jl.
 
 The data is saved in files folder.
+
+Givré, A., Colman-Lerner, A., & Dawson, S. P. (2024). Qualitatively Distinct Signaling in Cells: The Informational Landscape of Amplitude and Frequency Encoding. arXiv [q-Bio.CB]. Retrieved from http://arxiv.org/abs/2401.04089
