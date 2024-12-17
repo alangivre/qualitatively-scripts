@@ -6,4 +6,4 @@
 #SBATCH --ntasks=32  #Numero de procesos
 export JULIA_WORKER_TIMEOUT=600 
 
-julia integrales.jl
+julia integrals.jl

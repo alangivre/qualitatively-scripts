@@ -1,17 +1,17 @@
 __precompile__()
 using SpecialFunctions
 start = time()
-g=open("/home/agivre/tercerpaper3/aarchivos6/integrals","w") do g
+g=open("/home/agivre/paper3scripts/files/integrals","w") do g
 	########CDFs for the TF Amplitude and Frequency
 	#####amplitude
 	#y is I_ext
 	dy=0.01
 
-	cdfa=zeros(11,11)
-	cdff=zeros(11,11)
-	for j=0:10
+	cdfa=zeros(11,21)
+	cdff=zeros(11,21)
+	for j=0:20
 		for i=0:10
-			x=j*10
+			x=j*5
 			q=i*0.1
 			integral=0.0
 			for y=0.0:dy:1.0
@@ -25,9 +25,9 @@ g=open("/home/agivre/tercerpaper3/aarchivos6/integrals","w") do g
 	#####frequency
 
 	integral=0.0
-	for j=1:10
-		for i=1:10
-			x=j+5
+	for j=0:20
+		for i=0:10
+			x=j/2. +5.
 			q=i*0.1
 			integral=0.0
 			for y=0.0:dy:1.0

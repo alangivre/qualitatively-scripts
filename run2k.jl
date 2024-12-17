@@ -13,7 +13,7 @@ addprocs_slurm(parse(Int,ENV["SLURM_NTASKS"]))
 
 
 
-g=open("/home/agivre/tercerpaper3/files/ab4paratablaR2k","w") do g
+g=open("/home/agivre/paper3scripts/files/ab4paratablaR2k","w") do g
 ########scanning the parameter p for Frequency, Beta=1
 ########a+b=4
     AM=2
